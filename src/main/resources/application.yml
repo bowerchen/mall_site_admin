@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: mallroot
+    password: malladmin
+    url: jdbc:mysql://localhost:3306/mallsite?characterEncoding=utf-8&useSSl=false&serverTimezone=UTC
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
