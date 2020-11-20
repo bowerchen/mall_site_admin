@@ -38,6 +38,7 @@
 
         <table tableName="mall_order" domainObjectName="Order" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" />
         <table tableName="mall_order_item" domainObjectName="OrderItem" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" />
+        <table tableName="mall_user" domainObjectName="User" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" />
 
     </context>
 </generatorConfiguration>
