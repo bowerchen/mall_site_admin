@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="985e4def-c989-445b-828e-b5c32bff278c" name="Default Changelist" comment="注册、登录、退出接口已完成">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CategoryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/consts/MallSiteConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/consts/MallSiteConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/dao/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/dao/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/pojo/Category.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\admin\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Java EE\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="generatedSourcesFolder" value="GENERATED_SOURCE_FOLDER" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kPcbkDK5mgZKUXzxN07rYeSvHW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.javaee.mallsite.service.impl" />
+      <recent name="com.javaee.mallsite.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javaee.mallsite.form" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MallsiteApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallsiteApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.MallsiteApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.dao.OrderMapperTest" />
+      <option name="METHOD_NAME" value="selectByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallsiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall_admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaee.mallsite.MallsiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.OrderMapperTest.selectByPrimaryKey" />
+      <item itemvalue="JUnit.UserServiceImplTest.register" />
+      <item itemvalue="JUnit.MallsiteApplicationTests" />
+      <item itemvalue="JUnit.UserServiceImplTest.login" />
+      <item itemvalue="JUnit.UserServiceImplTest" />
+      <item itemvalue="Spring Boot.MallsiteApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.login" />
+        <item itemvalue="JUnit.MallsiteApplicationTests" />
+        <item itemvalue="JUnit.UserServiceImplTest.register" />
+        <item itemvalue="JUnit.OrderMapperTest.selectByPrimaryKey" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="985e4def-c989-445b-828e-b5c32bff278c" name="Default Changelist" comment="" />
+      <created>1605605742832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605605742832</updated>
+      <workItem from="1605605744843" duration="14344000" />
+      <workItem from="1605663520807" duration="634000" />
+      <workItem from="1605665603642" duration="11682000" />
+      <workItem from="1605680178984" duration="1864000" />
+      <workItem from="1605760243493" duration="4443000" />
+      <workItem from="1605844291514" duration="9364000" />
+      <workItem from="1605855184101" duration="19256000" />
+      <workItem from="1605923116614" duration="4989000" />
+      <workItem from="1605929104690" duration="174000" />
+    </task>
+    <task id="LOCAL-00001" summary="配置mybatis">
+      <created>1605681043186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605681043186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="注册、登录、退出接口已完成">
+      <created>1605880085506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605880085506</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置mybatis" />
+    <MESSAGE value="注册、登录、退出接口已完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册、登录、退出接口已完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="182" key="#Arquillian_Containers" timestamp="1605670510934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="182" key="#Arquillian_Containers/0.0.1920.1040@0.0.1920.1040" timestamp="1605670510934" />
+    <state x="780" y="106" key="#Project_Structure" timestamp="1605616200061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="106" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605616200061" />
+    <state x="790" y="174" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605670480888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="174" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605670480888" />
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1605924876637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605924876637" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605867694419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867694419" />
+    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605927897378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605927897378" />
+    <state x="368" y="98" key="DiffContextDialog" timestamp="1605926834508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="98" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605926834508" />
+    <state x="985" y="233" key="FileChooserDialogImpl" timestamp="1605927711053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="985" y="233" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605927711053" />
+    <state width="914" height="194" key="GridCell.Tab.0.bottom" timestamp="1605929075382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
+    <state width="914" height="194" key="GridCell.Tab.0.center" timestamp="1605929075382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
+    <state width="914" height="194" key="GridCell.Tab.0.left" timestamp="1605929075382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
+    <state width="914" height="194" key="GridCell.Tab.0.right" timestamp="1605929075382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
+    <state width="914" height="194" key="GridCell.Tab.1.bottom" timestamp="1605929075383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
+    <state width="914" height="194" key="GridCell.Tab.1.center" timestamp="1605929075383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
+    <state width="914" height="194" key="GridCell.Tab.1.left" timestamp="1605929075382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
+    <state width="914" height="194" key="GridCell.Tab.1.right" timestamp="1605929075383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="194" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
+    <state width="914" height="310" key="GridCell.Tab.2.bottom" timestamp="1605880212470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
+    <state width="914" height="310" key="GridCell.Tab.2.center" timestamp="1605880212470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="310" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
+    <state width="914" height="310" key="GridCell.Tab.2.left" timestamp="1605880212470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="310" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
+    <state width="914" height="310" key="GridCell.Tab.2.right" timestamp="1605880212470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="310" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
+    <state x="1026" y="281" key="RollbackChangesDialog" timestamp="1605926851557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1026" y="281" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605926851557" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1605606143472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605606143472" />
+    <state x="659" y="219" width="1177" height="711" key="SettingsEditor" timestamp="1605929278033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="659" y="219" width="1177" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605929278033" />
+    <state x="945" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605880090716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="945" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605880090716" />
+    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605846336407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605846336407" />
+    <state x="979" y="259" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605678794505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="979" y="259" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1605678794505" />
+    <state x="980" y="244" key="run.anything.popup" timestamp="1605845323954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="980" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605845323954" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605867503303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605867503303" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mallsite$MallsiteApplication.ic" NAME="MallsiteApplication Coverage Results" MODIFIED="1605852941000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
