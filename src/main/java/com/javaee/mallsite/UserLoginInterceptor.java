@@ -16,7 +16,7 @@ import static com.javaee.mallsite.consts.MallSiteConst.CURRENT_USER;
  * @time 2020/11/20 20:49
  */
 @Slf4j
-public class UserLoginInterceptor extends Throwable implements HandlerInterceptor {
+public class UserLoginInterceptor implements HandlerInterceptor {
 
     /**
      * true 表示继续流程，false表示中断

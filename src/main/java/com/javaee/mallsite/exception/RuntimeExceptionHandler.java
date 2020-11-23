@@ -2,6 +2,8 @@ package com.javaee.mallsite.exception;
 
 import com.javaee.mallsite.enums.ResponseEnum;
 import com.javaee.mallsite.vo.ResponseVo;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -27,5 +29,12 @@ public class RuntimeExceptionHandler {
         return ResponseVo.error(ResponseEnum.NEED_LOGIN);
     }
 
-
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseBody
+    public ResponseVo notValidExceptionHandle(MethodArgumentNotValidException e) {
+        BindingResult bindingResult = e.getBindingResult();
+//        Objects.requireNonNull(bindingResult.getFieldError());
+        return ResponseVo.error(ResponseEnum.PARAM_ERROR, bindingResult);
+//                bindingResult.getFieldError().getField() + " " + bindingResult.getFieldError().getDefaultMessage());
+    }
 }

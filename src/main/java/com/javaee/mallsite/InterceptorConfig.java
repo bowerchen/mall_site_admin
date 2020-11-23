@@ -13,14 +13,19 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class InterceptorConfig implements WebMvcConfigurer {
 
     /**
-     *
      * @param registry
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new UserLoginInterceptor())
                 .addPathPatterns("/**")
-                .excludePathPatterns("/user/login", "user/register");
+                .excludePathPatterns("/user/login",
+                                     "/user/register",
+                                     "/categories",
+                                     "/products",
+                                     "/products/*",
+//                                     "/carts",
+                                     "/error");
     }
 }
 

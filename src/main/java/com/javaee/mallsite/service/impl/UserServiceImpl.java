@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.nio.charset.StandardCharsets;
+import java.util.Date;
 
 /**
  * @version 1.0.0
@@ -50,6 +51,8 @@ public class UserServiceImpl implements IUserService {
         // MD5加密(Spring自带)
         user.setPassword(DigestUtils.md5DigestAsHex(user.getPassword().getBytes(StandardCharsets.UTF_8)));
 
+        user.setCreateTime(new Date(System.currentTimeMillis()));
+
         // 写入数据库
         int resultCount = userMapper.insertSelective(user);
         if (resultCount == 0) {
@@ -82,6 +85,8 @@ public class UserServiceImpl implements IUserService {
         }
         // 密码设置为空，并返回字段
         user.setPassword("");
+        user.setUpdateTime(new Date(System.currentTimeMillis()));
+
         return ResponseVo.success(user);
     }
 }

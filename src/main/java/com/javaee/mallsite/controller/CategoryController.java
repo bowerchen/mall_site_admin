@@ -5,6 +5,7 @@ import com.javaee.mallsite.vo.CategoryVo;
 import com.javaee.mallsite.vo.ResponseVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Create by bowerchen
  * @time 2020/11/21 10:32
  */
+@RestController
 public class CategoryController {
 
     @Autowired
@@ -20,6 +22,7 @@ public class CategoryController {
 
     @GetMapping("/categories")
     public ResponseVo<List<CategoryVo>> selectAll() {
+
         return categoryService.selectAll();
     }
 }

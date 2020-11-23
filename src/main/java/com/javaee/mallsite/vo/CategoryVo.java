@@ -1,5 +1,7 @@
 package com.javaee.mallsite.vo;
 
+import lombok.Data;
+
 import java.util.List;
 
 /**
@@ -7,6 +9,7 @@ import java.util.List;
  * Create by bowerchen
  * @time 2020/11/21 10:08
  */
+@Data
 public class CategoryVo {
     private Integer id;
     private  Integer parentId;

@@ -6,5 +6,4 @@ package com.javaee.mallsite.exception;
  * @time 2020/11/20 21:14
  */
 public class UserLoginException extends RuntimeException {
-
 }

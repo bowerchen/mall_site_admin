@@ -13,27 +13,143 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="985e4def-c989-445b-828e-b5c32bff278c" name="Default Changelist" comment="注册、登录、退出接口已完成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CategoryVo.java" afterDir="false" />
+    <list default="true" id="985e4def-c989-445b-828e-b5c32bff278c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/Cloud Foundry.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/Docker.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.imports.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/enums/ProductStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/form/CartAddForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/form/CartUpdateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/form/ShippingForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/IShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/ShippingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CartProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CartVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/ProductDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/ProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/ShippingVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaee/mallsite/service/ICartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaee/mallsite/service/IProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaee/mallsite/service/IShippingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaee/mallsite/service/impl/CategoryServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/UserLoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/consts/MallSiteConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/enums/ResponseEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/enums/RoleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/exception/RuntimeExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/exception/UserLoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/form/UserLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/form/UserRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/service/ICategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/vo/CategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/vo/ResponseVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mallsite-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mallsite-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.javaee.mallsite.MallsiteApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.javaee.mallsite.service.impl.UserServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.javaee.mallsite.MallsiteApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.javaee.mallsite.service.impl.UserServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/javaee/mallsite/service/impl/UserServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/consts/MallSiteConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/consts/MallSiteConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/UserLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/UserLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/dao/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/enums/ResponseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/enums/ResponseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/exception/RuntimeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/exception/RuntimeExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/exception/UserLoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/exception/UserLoginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CategoryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/CategoryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/ResponseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaee/mallsite/vo/ResponseVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/dao/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javaee/mallsite/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +165,9 @@
         <option value="JavaFXApplication" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -103,104 +219,115 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.javaee.mallsite.service" />
       <recent name="com.javaee.mallsite.service.impl" />
       <recent name="com.javaee.mallsite.dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.javaee.mallsite.form" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javaee.mallsite.form" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javaee.mallsite.service.impl" />
+      <recent name="com.javaee.mallsite.vo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallsiteApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IShippingServiceTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IShippingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.IShippingServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallsiteApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IShippingServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mall_admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.mallsite.*" />
+          <option name="PATTERN" value="com.javaee.mallsite.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.mallsite" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.MallsiteApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mall_admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaee.mallsite.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.mallsite.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.dao.OrderMapperTest" />
-      <option name="METHOD_NAME" value="selectByPrimaryKey" />
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.IShippingServiceTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IShippingServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mall_admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
+          <option name="PATTERN" value="com.javaee.mallsite.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mall_admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.IShippingServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IShippingServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mall_admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.mallsite.service.impl.*" />
+          <option name="PATTERN" value="com.javaee.mallsite.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="register" />
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.IShippingServiceTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IShippingServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.mallsite.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.mallsite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.mallsite.service.IShippingServiceTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,20 +341,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OrderMapperTest.selectByPrimaryKey" />
-      <item itemvalue="JUnit.UserServiceImplTest.register" />
-      <item itemvalue="JUnit.MallsiteApplicationTests" />
-      <item itemvalue="JUnit.UserServiceImplTest.login" />
-      <item itemvalue="JUnit.UserServiceImplTest" />
       <item itemvalue="Spring Boot.MallsiteApplication" />
+      <item itemvalue="JUnit.IShippingServiceTest.add" />
+      <item itemvalue="JUnit.IShippingServiceTest.delete" />
+      <item itemvalue="JUnit.IShippingServiceTest.update" />
+      <item itemvalue="JUnit.IShippingServiceTest.list" />
+      <item itemvalue="JUnit.IShippingServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceImplTest" />
-        <item itemvalue="JUnit.UserServiceImplTest.login" />
-        <item itemvalue="JUnit.MallsiteApplicationTests" />
-        <item itemvalue="JUnit.UserServiceImplTest.register" />
-        <item itemvalue="JUnit.OrderMapperTest.selectByPrimaryKey" />
+        <item itemvalue="JUnit.IShippingServiceTest" />
+        <item itemvalue="JUnit.IShippingServiceTest.list" />
+        <item itemvalue="JUnit.IShippingServiceTest.update" />
+        <item itemvalue="JUnit.IShippingServiceTest.add" />
+        <item itemvalue="JUnit.IShippingServiceTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +374,10 @@
       <workItem from="1605844291514" duration="9364000" />
       <workItem from="1605855184101" duration="19256000" />
       <workItem from="1605923116614" duration="4989000" />
-      <workItem from="1605929104690" duration="174000" />
+      <workItem from="1605929104690" duration="23656000" />
+      <workItem from="1606012981736" duration="9525000" />
+      <workItem from="1606026429048" duration="19718000" />
+      <workItem from="1606098075590" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="配置mybatis">
       <created>1605681043186</created>
@@ -263,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605880085506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="补充昨晚没上传的的文件">
+      <created>1605929456639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605929456640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,19 +411,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -296,7 +421,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置mybatis" />
     <MESSAGE value="注册、登录、退出接口已完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册、登录、退出接口已完成" />
+    <MESSAGE value="补充昨晚没上传的的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充昨晚没上传的的文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Arquillian_Containers" timestamp="1605670510934">
@@ -311,74 +437,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="174" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605670480888" />
-    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1605924876637">
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1606052245941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605924876637" />
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606052245941" />
+    <state x="1154" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606052239596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1154" y="299" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606052239596" />
+    <state x="1169" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606017053899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1169" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606017053899" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605867694419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867694419" />
-    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605927897378">
+    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605956182183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605927897378" />
+    <state x="1186" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605956182183" />
+    <state width="205" height="466" key="DebuggerActiveHint" timestamp="1606017482080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="205" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606017482080" />
     <state x="368" y="98" key="DiffContextDialog" timestamp="1605926834508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="98" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605926834508" />
-    <state x="985" y="233" key="FileChooserDialogImpl" timestamp="1605927711053">
+    <state x="985" y="233" key="FileChooserDialogImpl" timestamp="1606105077162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="985" y="233" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605927711053" />
-    <state width="914" height="194" key="GridCell.Tab.0.bottom" timestamp="1605929075382">
+    <state x="985" y="233" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606105077162" />
+    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1606104288331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
-    <state width="914" height="194" key="GridCell.Tab.0.center" timestamp="1605929075382">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606104288331" />
+    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1606104288330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
-    <state width="914" height="194" key="GridCell.Tab.0.left" timestamp="1605929075382">
+    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606104288330" />
+    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1606104288327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
-    <state width="914" height="194" key="GridCell.Tab.0.right" timestamp="1605929075382">
+    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606104288327" />
+    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1606104288331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
-    <state width="914" height="194" key="GridCell.Tab.1.bottom" timestamp="1605929075383">
+    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606104288331" />
+    <state width="914" height="310" key="GridCell.Tab.1.bottom" timestamp="1606103166331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
-    <state width="914" height="194" key="GridCell.Tab.1.center" timestamp="1605929075383">
+    <state width="914" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606103166331" />
+    <state width="914" height="310" key="GridCell.Tab.1.center" timestamp="1606103166329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
-    <state width="914" height="194" key="GridCell.Tab.1.left" timestamp="1605929075382">
+    <state width="914" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606103166329" />
+    <state width="914" height="310" key="GridCell.Tab.1.left" timestamp="1606103166329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075382" />
-    <state width="914" height="194" key="GridCell.Tab.1.right" timestamp="1605929075383">
+    <state width="914" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606103166329" />
+    <state width="914" height="310" key="GridCell.Tab.1.right" timestamp="1606103166330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="194" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605929075383" />
-    <state width="914" height="310" key="GridCell.Tab.2.bottom" timestamp="1605880212470">
+    <state width="914" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606103166330" />
+    <state width="945" height="310" key="GridCell.Tab.2.bottom" timestamp="1606036660315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
-    <state width="914" height="310" key="GridCell.Tab.2.center" timestamp="1605880212470">
+    <state width="945" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606036660315" />
+    <state width="945" height="310" key="GridCell.Tab.2.center" timestamp="1606036660315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="310" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
-    <state width="914" height="310" key="GridCell.Tab.2.left" timestamp="1605880212470">
+    <state width="945" height="310" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606036660315" />
+    <state width="945" height="310" key="GridCell.Tab.2.left" timestamp="1606036660315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="310" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
-    <state width="914" height="310" key="GridCell.Tab.2.right" timestamp="1605880212470">
+    <state width="945" height="310" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606036660315" />
+    <state width="945" height="310" key="GridCell.Tab.2.right" timestamp="1606036660315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="310" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605880212470" />
+    <state width="945" height="310" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606036660315" />
     <state x="1026" y="281" key="RollbackChangesDialog" timestamp="1605926851557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -391,26 +529,69 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="659" y="219" width="1177" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605929278033" />
-    <state x="945" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605880090716">
+    <state x="945" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605954492382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="945" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605880090716" />
-    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605846336407">
+    <state x="945" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605954492382" />
+    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606052801752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605846336407" />
-    <state x="979" y="259" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605678794505">
+    <state x="1211" y="330" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606052801752" />
+    <state x="910" y="291" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606017355584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="979" y="259" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1605678794505" />
+    <state x="910" y="291" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1606017355584" />
+    <state x="1140" y="283" key="extract.method.dialog" timestamp="1606047397632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1140" y="283" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606047397632" />
+    <state x="761" y="109" width="596" height="804" key="find.popup" timestamp="1606029163165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="109" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606029163165" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606046187337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606046187337" />
     <state x="980" y="244" key="run.anything.popup" timestamp="1605845323954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="980" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605845323954" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605867503303">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1606105043021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605867503303" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606105043021" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang">
+            <option name="NOTIFY_UNCAUGHT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="com.javaee.mallsite.exception.UserLoginException" package="com.javaee.mallsite.exception" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.lastMappedConfigurationPropertyName.mapping[0]" />
+        <watch expression="this.lastMappedConfigurationPropertyName.mapping[0].configurationPropertyName" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mallsite$MallsiteApplication.ic" NAME="MallsiteApplication Coverage Results" MODIFIED="1605852941000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
