@@ -2,8 +2,11 @@ package com.javaee.mallsite.service;
 
 import com.javaee.mallsite.form.CartAddForm;
 import com.javaee.mallsite.form.CartUpdateForm;
+import com.javaee.mallsite.pojo.Cart;
 import com.javaee.mallsite.vo.CartVo;
 import com.javaee.mallsite.vo.ResponseVo;
+
+import java.util.List;
 
 /**
  * @version 1.0.0
@@ -25,4 +28,6 @@ public interface ICartService {
     ResponseVo<CartVo> unSelectAll(Integer uid);
 
     ResponseVo<Integer> sum(Integer uid);
+
+    List<Cart> listForCart(Integer uid);
 }

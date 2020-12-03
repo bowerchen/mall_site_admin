@@ -5,6 +5,7 @@ import com.javaee.mallsite.pojo.Category;
 import com.javaee.mallsite.service.ICategoryService;
 import com.javaee.mallsite.vo.CategoryVo;
 import com.javaee.mallsite.vo.ResponseVo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,38 +19,40 @@ import java.util.stream.Collectors;
 import static com.javaee.mallsite.consts.MallSiteConst.ROOT_PARENT_ID;
 
 /**
- * @version 1.0.0
- * Create by bowerchen
- * @time 2020/11/21 10:11
+ * Created by 廖师兄
  */
 @Service
-public class CategoryService implements ICategoryService {
+@Slf4j
+public class CategoryServiceImpl implements ICategoryService {
 
     @Autowired
     private CategoryMapper categoryMapper;
 
+    /**
+     * 耗时：http(请求微信api) > 磁盘 > 内存
+     * mysql(内网+磁盘)
+     * @return
+     */
     @Override
     public ResponseVo<List<CategoryVo>> selectAll() {
-//        List<CategoryVo> categoryVoList = new ArrayList<>();
         List<Category> categories = categoryMapper.selectAll();
 
-        // 查出parent_id = 0
-        /*
-        for(Category category: categories) {
-            if (category.getParentId().equals(ROOT_PARENT_ID)) {
-                CategoryVo categoryVo = new CategoryVo();
-                BeanUtils.copyProperties(category, categoryVo);
-                categoryVoList.add(categoryVo);
-            }
-        }
-        */
+        //查出parent_id=0
+//		for (Category category : categories) {
+//			if (category.getParentId().equals(ROOT_PARENT_ID)) {
+//				CategoryVo categoryVo = new CategoryVo();
+//				BeanUtils.copyProperties(category, categoryVo);
+//				categoryVoList.add(categoryVo);
+//			}
+//		}
+
         //lambda + stream
+        // TODO 这里报 NullPointerException 错误 已解决 sql字段 sort_order 为 null ，给它赋值就行了
         List<CategoryVo> categoryVoList = categories.stream()
                 .filter(e -> e.getParentId().equals(ROOT_PARENT_ID))
                 .map(this::category2CategoryVo)
                 .sorted(Comparator.comparing(CategoryVo::getSortOrder).reversed())
                 .collect(Collectors.toList());
-
 
         //查询子目录
         findSubCategory(categoryVoList, categories);
@@ -74,7 +77,6 @@ public class CategoryService implements ICategoryService {
 
 
     private void findSubCategory(List<CategoryVo> categoryVoList, List<Category> categories) {
-
         for (CategoryVo categoryVo : categoryVoList) {
             List<CategoryVo> subCategoryVoList = new ArrayList<>();
 
@@ -98,5 +100,4 @@ public class CategoryService implements ICategoryService {
         BeanUtils.copyProperties(category, categoryVo);
         return categoryVo;
     }
-
 }

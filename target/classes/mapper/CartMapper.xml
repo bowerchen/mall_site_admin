@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.javaee.mallsite.dao.CartMapper">
+  <resultMap id="BaseResultMap" type="com.javaee.mallsite.pojo.Cart">
+    <id column="user_id" jdbcType="INTEGER" property="userId" />
+    <id column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="quantity" jdbcType="INTEGER" property="quantity" />
+    <result column="product_selected" jdbcType="BIT" property="productSelected" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    user_id, product_id, quantity, product_selected
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="map" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from mall_cart
+    where user_id = #{userId,jdbcType=INTEGER}
+      and product_id = #{productId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="map">
+    delete from mall_cart
+    where user_id = #{userId,jdbcType=INTEGER}
+      and product_id = #{productId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.javaee.mallsite.pojo.Cart">
+    insert into mall_cart (user_id, product_id, quantity, 
+      product_selected)
+    values (#{userId,jdbcType=INTEGER}, #{productId,jdbcType=INTEGER}, #{quantity,jdbcType=INTEGER}, 
+      #{productSelected,jdbcType=BIT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.javaee.mallsite.pojo.Cart">
+    insert into mall_cart
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="productId != null">
+        product_id,
+      </if>
+      <if test="quantity != null">
+        quantity,
+      </if>
+      <if test="productSelected != null">
+        product_selected,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="productId != null">
+        #{productId,jdbcType=INTEGER},
+      </if>
+      <if test="quantity != null">
+        #{quantity,jdbcType=INTEGER},
+      </if>
+      <if test="productSelected != null">
+        #{productSelected,jdbcType=BIT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.javaee.mallsite.pojo.Cart">
+    update mall_cart
+    <set>
+      <if test="quantity != null">
+        quantity = #{quantity,jdbcType=INTEGER},
+      </if>
+      <if test="productSelected != null">
+        product_selected = #{productSelected,jdbcType=BIT},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=INTEGER}
+      and product_id = #{productId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.javaee.mallsite.pojo.Cart">
+    update mall_cart
+    set quantity = #{quantity,jdbcType=INTEGER},
+      product_selected = #{productSelected,jdbcType=BIT}
+    where user_id = #{userId,jdbcType=INTEGER}
+      and product_id = #{productId,jdbcType=INTEGER}
+  </update>
+
+  <insert id="insertForCart" parameterType="com.javaee.mallsite.pojo.Cart">
+    insert into mall_cart (user_id, product_id, quantity,
+      product_selected)
+    values (#{userId,jdbcType=INTEGER}, #{productId,jdbcType=INTEGER}, #{quantity,jdbcType=INTEGER},
+      #{productSelected,jdbcType=BIT})
+  </insert>
+</mapper>

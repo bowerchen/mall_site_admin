@@ -9,9 +9,7 @@ import com.javaee.mallsite.form.CartUpdateForm;
 import com.javaee.mallsite.vo.CartVo;
 import com.javaee.mallsite.vo.ResponseVo;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -30,9 +28,9 @@ public class ICartServiceTest extends MallsiteApplicationTests {
 
     private Integer productId = 26;
 
-    private Integer uid = 1;
+    private Integer uid = 2;
 
-    @Before
+    @Test
     public void add() {
         CartAddForm form = new CartAddForm();
         form.setProductId(productId);
@@ -59,7 +57,7 @@ public class ICartServiceTest extends MallsiteApplicationTests {
         Assert.assertEquals(ResponseEnum.SUCCESS.getCode(), responseVo.getStatus());
     }
 
-    @After
+    @Test
     public void delete() {
         ResponseVo<CartVo> responseVo = cartService.delete(uid,productId);
         log.info("list={}", gson.toJson(responseVo));
